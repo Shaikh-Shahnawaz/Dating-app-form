@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    padding: 0.1px;
+    background-color: purple;
+    height: 6vh;
+    
+}
+h1{
+    margin-top: 0px;
+    padding-top: 10px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    text-align: center;
+}
+/*   <!-- ============= application form =============== --> */
+.app-form{
+    background-image:url("/img/img2.png");
+    background-repeat:round;
+}
+h2{
+    margin: 2px 0 2px 0;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: purple;
+    text-shadow: 2px 2px 1.5px white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 5px 25px 15px 25px;
+    border-radius: 4px;
+    margin: 21px 0 9px 0;
+}
+form{
+    width: 40%;
+    padding: 8px 20px 15px 15px;
+    background-color: rgba(128, 0, 128, 0.15);
+    border: 3px solid purple; 
+    border-radius: 9px;
+    
+}
+
+.chekbox-span{
+   padding-left: 2em;
+}
+button{
+    background-color: purple;
+    color: white;
+    padding: 12px 20px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgba(128, 0, 128, 0.89);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="date"],
+select,
+textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+
+/* <!-- =========== footer section ========== --> */
+footer{
+    height: 3.5vh;
+    background-color: purple;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    letter-spacing: 3px;
+    padding-top: 5px;
+}
+footer a{
+    color: white;
+}
+
+fieldset{
+    background-color: #fff;
+    border: 1px solid purple;
+    border-radius: 5px;
+    width: 100%;
+}

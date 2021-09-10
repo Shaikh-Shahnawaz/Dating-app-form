@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dating Application</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome To Dating Site</h1>
+    </header>
+
+    <main>
+        <!-- ============= application form =============== -->
+        <section class="app-form">
+            <div class="container">
+                <form action="contact.html" method="POST">
+                <h2>Application Form</h2>
+                <span >
+                    Name: *   <input  required name="name" placeholder="Enter Your Name" type="text"> 
+                    Phone: *  <input  required name="phone" placeholder="Enter Your Number" type="tel">
+                    Email: * <input  required name="email" placeholder="Enter Your Email" type="email">
+                </span>
+                
+                <fieldset>
+                    <legend>&nbsp;Gender * &nbsp;</legend>
+                    <p>
+                        Male: <input required name="gender" type="radio">
+                        Female: <input required name="gender" type="radio">
+                    </p>
+                </fieldset> 
+                
+                <p>Date of proposed outing: * &nbsp;<input required name="date" type="date"></p> 
+                <p><strong>Check all that apply to you:</strong></p> 
+
+                <span class="chekbox-span">
+                    Is the date at a private/public location &nbsp;<input type="checkbox" value="chek2" name="chek2">
+                   
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    I am more than 2 years older than my daughter &nbsp;<input type="checkbox" value="chek2"
+                        name="chek2">
+                </span>
+                <br>
+                <span  class="chekbox-span">
+                    I have tattoos and/or piercings &nbsp;<input type="checkbox" value="chek2" name="chek2"> 
+                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+                    Education level completed &nbsp;<input type="checkbox" value="chek2" name="chek2">
+                </span>
+                <br>
+                <span class="chekbox-span">
+                    I own a panel van or Ferrari &nbsp;<input type="checkbox" value="chek2" name="chek2">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    I work full-time &nbsp;<input type="checkbox" value="chek2" name="chek2">
+                </span>
+               
+                <p><strong>Essay Section:</strong></p> 
+                <textarea name="textarea" placeholder="Why do you want to date my daughter ?" cols="50"
+                    rows="5"></textarea>  
+                <p> Upload Files: * &nbsp;<input required type="file"></p>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </div>
+
+        </section>
+        <!-- =========== footer section ========== -->
+        <footer>
+            Copyright &#169;2021 All rights reserved | This template is made with 💖 by <a
+                href="https://mysamplewebhost.web.app/">ShanuTech</a>
+        </footer>
+    </main>
+</body>
+
+</html>
